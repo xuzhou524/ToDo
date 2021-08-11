@@ -80,6 +80,7 @@ struct ContentView: View {
                             .frame(width: 65, height: 65)
                             .foregroundColor(.blue)
                             .padding(.trailing)
+                            .padding(.bottom,10)
                     }
                     .sheet(isPresented: $showEditingPage, content: {
                         EditingPage()
