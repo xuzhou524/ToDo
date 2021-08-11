@@ -25,7 +25,7 @@ func initUserData() -> [singleToDo] {
 
 struct ContentView: View {
     
-    @ObservedObject var userData: ToDo = ToDo(data: initUserData())
+    @ObservedObject var userData: ToDo = ToDo(data: initUserData().count > 0 ? initUserData() : [singleToDo(title: "示例", duedate: Date(), isChecked: false, id: 0)])
     
     @State var showEditingPage = false
     @State var editingMode = false
