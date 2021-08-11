@@ -13,8 +13,6 @@
 		160599FA26C1160400F7CBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160599F926C1160400F7CBE0 /* Assets.xcassets */; };
 		160599FD26C1160400F7CBE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160599FC26C1160400F7CBE0 /* Preview Assets.xcassets */; };
 		16059A0026C1160400F7CBE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160599FE26C1160400F7CBE0 /* LaunchScreen.storyboard */; };
-		16059A0B26C1160400F7CBE0 /* MyToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16059A0A26C1160400F7CBE0 /* MyToDoTests.swift */; };
-		16059A1626C1160400F7CBE0 /* MyToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16059A1526C1160400F7CBE0 /* MyToDoUITests.swift */; };
 		16059A2626C1163E00F7CBE0 /* EditingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16059A2326C1163E00F7CBE0 /* EditingPage.swift */; };
 		16059A2726C1163E00F7CBE0 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16059A2426C1163E00F7CBE0 /* UserData.swift */; };
 		16059A2826C1163E00F7CBE0 /* SingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16059A2526C1163E00F7CBE0 /* SingleCardView.swift */; };
@@ -47,11 +45,7 @@
 		160599FF26C1160400F7CBE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16059A0126C1160400F7CBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16059A0626C1160400F7CBE0 /* MyToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		16059A0A26C1160400F7CBE0 /* MyToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDoTests.swift; sourceTree = "<group>"; };
-		16059A0C26C1160400F7CBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16059A1126C1160400F7CBE0 /* MyToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		16059A1526C1160400F7CBE0 /* MyToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDoUITests.swift; sourceTree = "<group>"; };
-		16059A1726C1160400F7CBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16059A2326C1163E00F7CBE0 /* EditingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingPage.swift; sourceTree = "<group>"; };
 		16059A2426C1163E00F7CBE0 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		16059A2526C1163E00F7CBE0 /* SingleCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleCardView.swift; sourceTree = "<group>"; };
@@ -86,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				160599F226C1160000F7CBE0 /* MyToDo */,
-				16059A0926C1160400F7CBE0 /* MyToDoTests */,
-				16059A1426C1160400F7CBE0 /* MyToDoUITests */,
 				160599F126C1160000F7CBE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,24 +117,6 @@
 				160599FC26C1160400F7CBE0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		16059A0926C1160400F7CBE0 /* MyToDoTests */ = {
-			isa = PBXGroup;
-			children = (
-				16059A0A26C1160400F7CBE0 /* MyToDoTests.swift */,
-				16059A0C26C1160400F7CBE0 /* Info.plist */,
-			);
-			path = MyToDoTests;
-			sourceTree = "<group>";
-		};
-		16059A1426C1160400F7CBE0 /* MyToDoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				16059A1526C1160400F7CBE0 /* MyToDoUITests.swift */,
-				16059A1726C1160400F7CBE0 /* Info.plist */,
-			);
-			path = MyToDoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16059A0B26C1160400F7CBE0 /* MyToDoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16059A1626C1160400F7CBE0 /* MyToDoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
